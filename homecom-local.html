@@ -133,7 +133,7 @@
          * Flags positions
          */
         .ml .ml-site-link:before {
-            background: url('img/flags.png?v=2.0') no-repeat 0 0 transparent;
+            background: url('img/flags.png?v=3.0') no-repeat 0 0 transparent;
             content: '';
             display: block;
             height: 20px;
@@ -142,41 +142,50 @@
             top: 16px;
             left: 15px;
         }
-        .ml .ml-site-mlb :before {
+
+        .ml .ml-site-mlb a:before {
             background-position: 0 -20px;
         }
-        .ml .ml-site-mco :before {
+        .ml .ml-site-mco a:before {
             background-position: 0 -40px;
         }
-        .ml .ml-site-mcr :before {
+        .ml .ml-site-mcr a:before {
             background-position: 0 -60px;
         }
-        .ml .ml-site-mlc :before {
+        .ml .ml-site-mlc a:before {
             background-position: 0 -80px;
         }
-        .ml .ml-site-mrd :before {
+        .ml .ml-site-mrd a:before {
             background-position: 0 -100px;
         }
-        .ml .ml-site-mec :before {
+        .ml .ml-site-mec a:before {
             background-position: 0 -120px;
         }
-        .ml .ml-site-mlm :before {
+        .ml .ml-site-mlm a:before {
             background-position: 0 -140px;
         }
-        .ml .ml-site-mpa :before {
+        .ml .ml-site-mpa a:before {
             background-position: 0 -160px;
         }
-        .ml .ml-site-mpe :before {
+        .ml .ml-site-mpe a:before {
             background-position: 0 -180px;
         }
-        .ml .ml-site-mpt :before {
+        .ml .ml-site-mpt a:before {
             background-position: 0 -200px;
         }
-        .ml .ml-site-mlu :before {
+        .ml .ml-site-mlu a:before {
             background-position: 0 -220px;
         }
-        .ml .ml-site-mlv :before {
+        .ml .ml-site-mlv a:before {
             background-position: 0 -240px;
+        }
+
+        .ml .ml-site-mlgt a:before {
+            background-position: 0 -260px;
+        }
+
+        .ml .ml-site-mlbo a:before {
+            background-position: 0 -280px;
         }
 
 
@@ -239,6 +248,11 @@
                 background-size: auto 107px;
             }
 
+            .ml .ml-site-link:before {
+                background-image: url('img/flags@2x.png?v=1.0');
+                background-size: 28px;
+            }
+
             @media (min-width: 1024px) {
 
                 .ml .ml-logo {
@@ -264,7 +278,7 @@
             <li class="ml-site-mlb">
                 <a class="ml-site-link" id="BR" href="http://www.mercadolivre.com.br">Brasil</a>
             </li>
-            <li class="ml-site-mlb">
+            <li class="ml-site-mlbo">
                 <a class="ml-site-link" id="BR" href="http://www.mercadolibre.com.bo">Bolivia</a>
             </li>
             <li class="ml-site-mco">
@@ -281,6 +295,9 @@
             </li>
             <li class="ml-site-mec">
                 <a class="ml-site-link" id="EC" href="http://www.mercadolibre.com.ec">Ecuador</a>
+            </li>
+            <li class="ml-site-mlgt">
+                <a class="ml-site-link" id="BR" href="http://www.mercadolibre.com.gt">Guatemala</a>
             </li>
             <li class="ml-site-mlm">
                 <a class="ml-site-link" id="MX" href="http://www.mercadolibre.com.mx">México</a>
